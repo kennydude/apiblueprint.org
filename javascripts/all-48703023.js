@@ -20,4 +20,4 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-$(function(){for(var n=[],a=1;6>=a;a++)n.push("h"+a+"[id]");$(n.join(", "),".page-content").each(function(){var n=$(this),a=$("<a/>",{href:"#"+n.attr("id"),"class":"permalink",title:"Permanent Link",text:"#"}),e=$("<span/>",{"class":"permalink-container"});n.append(e),e.append(a)})});
+$(function(){for(var n=[],t=1;6>=t;t++)n.push("h"+t+"[id]");$(n.join(", "),".page-content").each(function(){var n=$(this),t=$("<a/>",{href:"#"+n.attr("id"),"class":"permalink",title:"Permanent Link",text:"#"}),a=$("<span/>",{"class":"permalink-container"});n.append(a),a.append(t)})}),$(function(){$(document).on("click",".tool",function(){var n=$(this).find("a").attr("href");window.location=n})});
